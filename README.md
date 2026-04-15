@@ -219,15 +219,23 @@ terraform destroy
 
 ## Screenshots
 
-> Screenshots are located in the `/screenshots` folder of this repository.
+### 1. GitHub Actions Pipeline Completed
+![GitHub Actions Pipeline](https://raw.githubusercontent.com/isaacambi/terraform-cicd-pipeline/main/terraform-cicd/02-actions-completed.png)
 
-| Screenshot | Description |
-|------------|-------------|
-| `01-github-actions-pipeline.png` | Both Terraform Plan and Apply jobs passing |
-| `02-github-repo.png` | Repository structure showing workflow file |
-| `03-terraform-plan-job.png` | Terraform Plan job steps in detail |
-| `04-terraform-apply-job.png` | Terraform Apply job steps in detail |
-| `05-ec2-instance.png` | EC2 instance running in AWS console |
+### 2. EC2 Instance Created by Pipeline
+![EC2 Instance Created](https://raw.githubusercontent.com/isaacambi/terraform-cicd-pipeline/main/terraform-cicd/02-cicd-instance-created.png)
+
+### 3. Terraform Plan Job Steps
+![Terraform Plan Steps](https://raw.githubusercontent.com/isaacambi/terraform-cicd-pipeline/main/terraform-cicd/03-steps-for-teraform-plan.png)
+
+### 4. Terraform Apply Job Steps
+![Terraform Apply Steps](https://raw.githubusercontent.com/isaacambi/terraform-cicd-pipeline/main/terraform-cicd/04-terraform-apply-steps.png)
+
+### 5. Project Files Structure
+![Project Files](https://raw.githubusercontent.com/isaacambi/terraform-cicd-pipeline/main/terraform-cicd/05-project-files.png)
+
+### 6. Terraform Destroy Complete
+![Terraform Destroy](https://raw.githubusercontent.com/isaacambi/terraform-cicd-pipeline/main/terraform-cicd/06-terraform-destroy.png)
 
 ---
 
